@@ -37,7 +37,7 @@ def video_feed():
 
 @app.route('/veena')
 def veena():
-	return 'veena rockz'
+	return 'its working'
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0',port=8000 ,debug=True)
